@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us - Vidya AI</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        body {
+            min-height: 100vh;
+            background-color: #f8f9fa;
+        }
+        .sidebar {
+            position: fixed;
+            top: 0;
+            left: 0;
+            height: 100%;
+            width: 250px;
+            background-color: #343a40;
+            color: white;
+            padding-top: 20px;
+        }
+        .sidebar a {
+            color: white;
+            text-decoration: none;
+            padding: 10px;
+            display: block;
+            transition: background 0.3s;
+        }
+        .sidebar a:hover {
+            background-color: #495057;
+        }
+        .main-content {
+            margin-left: 250px; /* Offset by the width of the sidebar */
+            padding: 20px;
+        }
+        .card {
+            margin-bottom: 20px;
+        }
+        .team-member {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        .team-member img {
+            border-radius: 50%;
+            width: 150px;
+            height: 150px;
+            object-fit: cover;
+            margin-bottom: 10px;
+        }
+        .tagline {
+            margin-bottom: 20px;
+            font-size: 1.2rem;
+            font-weight: bold;
+            color: #343a40;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Sidebar -->
+    <div class="sidebar">
+        <h2 class="text-center">Vidya AI</h2>
+        <a href="roadmap">📅 Roadmap</a>
+        <a href="#learn">📚 Learn</a>
+        <a href="#test">📝 Test</a>
+        <a href="#profile">👤 Profile</a>
+        <a href="#settings">⚙️ Settings</a>
+        <a href="#support">💬 Support</a>
+        <a href="#logout">🚪 Logout</a>
+    </div>
+
+    <!-- Main Content -->
+    <div class="main-content">
+        <div class="container-fluid">
+            <h1>Delta Developers</h1>
+            <div class="tagline">
+                Building tech to solve problems and help people 🚀
+            </div>
+            <p>Vidya AI is an innovative AI-powered learning platform developed by Delta Developers, a passionate team dedicated to creating impactful tech solutions.</p>
+
+            <!-- Our Team Section -->
+            <div id="team" class="card">
+                <div class="card-header">
+                    👥 Our Team
+                </div>
+                <div class="card-body">
+                    <p class="card-text">The following members of Delta Developers worked on this project:</p>
+                    <div class="row">
+                        <div class="col-md-4 team-member">
+                            <img src="member1.jpg" alt="Armaan">
+                            <h5>Armaan</h5>
+                            <p>Senior Developer</p>
+                        </div>
+                        <div class="col-md-4 team-member">
+                            <img src="member2.jpg" alt="Member 2">
+                            <h5>Member 2</h5>
+                            <p>UI/UX Designer</p>
+                        </div>
+                        <div class="col-md-4 team-member">
+                            <img src="member3.jpg" alt="Member 3">
+                            <h5>Member 3</h5>
+                            <p>Project Manager</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Contact Us Section -->
+            <div id="contact" class="card">
+                <div class="card-header">
+                    📞 Contact Us
+                </div>
+                <div class="card-body">
+                    <h5 class="card-title">Get in Touch</h5>
+                    <p class="card-text">For any inquiries or support, please email us at:</p>
+                    <p class="card-text"><a href="mailto:support@vidyaai.com">support@vidyaai.com</a></p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>

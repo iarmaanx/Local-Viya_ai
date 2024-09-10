@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vidya AI Dashboard</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        body {
+            min-height: 100vh;
+            background-color: #f8f9fa;
+        }
+        .sidebar {
+            position: fixed;
+            top: 0;
+            left: 0;
+            height: 100%;
+            width: 250px;
+            background-color: #343a40;
+            color: white;
+            padding-top: 20px;
+        }
+        .sidebar a {
+            color: white;
+            text-decoration: none;
+            padding: 10px;
+            display: block;
+            transition: background 0.3s;
+        }
+        .sidebar a:hover {
+            background-color: #495057;
+        }
+        .main-content {
+            margin-left: 250px; /* Offset by the width of the sidebar */
+            padding: 20px;
+        }
+        .card {
+            margin-bottom: 20px;
+        }
+        .footer {
+            position: absolute;
+            bottom: 20px;
+            width: 100%;
+            text-align: center;
+        }
+        .footer a {
+            color: #adb5bd;
+            text-decoration: none;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Sidebar -->
+    <div class="sidebar">
+        <h2 class="text-center">Vidya AI</h2>
+        <a href="roadmap">📅 Roadmap</a>
+        <a href="#learn">📚 Learn</a>
+        <a href="#test">📝 Test</a>
+        <a href="#profile">👤 Profile</a>
+        <a href="#settings">⚙️ Settings</a>
+        <a href="#support">💬 Support</a>
+        <a href="login">🚪 Logout</a>
+
+        <!-- Footer Anchor Tag -->
+        <div class="footer">
+            <a href="aboutUs/">Coded by Delta Developers</a>
+        </div>
+    </div>
+
+    <!-- Main Content -->
+    <div class="main-content">
+        <div class="container-fluid">
+            <h1>Welcome to Your Dashboard</h1>
+            <p>Navigate through the options to manage your learning experience with Vidya AI.</p>
+
+            <!-- Roadmap Section -->
+            <div id="roadmap" class="card">
+                <div class="card-header">
+                    📅 Roadmap
+                </div>
+                <div class="card-body">
+                    <h5 class="card-title">Your Learning Path</h5>
+                    <p class="card-text">View and manage your personalized learning roadmap designed by our AI to help you reach your goals.</p>
+                    <a href="#" class="btn btn-primary">View Roadmap</a>
+                </div>
+            </div>
+
+            <!-- Learn Section -->
+            <div id="learn" class="card">
+                <div class="card-header">
+                    📚 Learn
+                </div>
+                <div class="card-body">
+                    <h5 class="card-title">Start Learning</h5>
+                    <p class="card-text">Access a wide range of courses and resources tailored to your interests and progress.</p>
+                    <a href="#" class="btn btn-primary">Start Learning</a>
+                </div>
+            </div>
+
+            <!-- Test Section -->
+            <div id="test" class="card">
+                <div class="card-header">
+                    📝 Test
+                </div>
+                <div class="card-body">
+                    <h5 class="card-title">Assess Your Knowledge</h5>
+                    <p class="card-text">Take quizzes and exams to evaluate your understanding and track your progress.</p>
+                    <a href="#" class="btn btn-primary">Take a Test</a>
+                </div>
+            </div>
+
+            <!-- Profile Section -->
+            <div id="profile" class="card">
+                <div class="card-header">
+                    👤 Profile
+                </div>
+                <div class="card-body">
+                    <h5 class="card-title">Your Profile</h5>
+                    <p class="card-text">View and update your personal information, learning preferences, and achievements.</p>
+                    <a href="#" class="btn btn-primary">Edit Profile</a>
+                </div>
+            </div>
+
+            <!-- Settings Section -->
+            <div id="settings" class="card">
+                <div class="card-header">
+                    ⚙️ Settings
+                </div>
+                <div class="card-body">
+                    <h5 class="card-title">Account Settings</h5>
+                    <p class="card-text">Manage your account settings, notifications, and preferences.</p>
+                    <a href="#" class="btn btn-primary">Go to Settings</a>
+                </div>
+            </div>
+
+            <!-- Support Section -->
+            <div id="support" class="card">
+                <div class="card-header">
+                    💬 Support
+                </div>
+                <div class="card-body">
+                    <h5 class="card-title">Need Help?</h5>
+                    <p class="card-text">Get in touch with our support team for assistance with your account or learning journey.</p>
+                    <a href="about-us/" class="btn btn-primary">Contact Support</a>
+                </div>
+            </div>
+
+            <!-- Logout Section -->
+            <div id="logout" class="card">
+                <div class="card-header">
+                    🚪 Logout
+                </div>
+                <div class="card-body">
+                    <h5 class="card-title">Logout</h5>
+                    <p class="card-text">Sign out of your account securely.</p>
+                    <a href="#" class="btn btn-danger">Logout</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
